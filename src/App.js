@@ -1,8 +1,17 @@
-import './components/searchbar'
-import './components/ImageList'
+import SearchBar from './components/SearchBar'
+import ImageList from './components/ImageList'
 
 function App() {
-	return <h1>App</h1>
+	return (
+		<div>
+			<div>
+				<SearchBar />
+			</div>
+			<div>
+				<ImageList />
+			</div>
+		</div>
+	)
 }
 
-export defualt App()
+export default App

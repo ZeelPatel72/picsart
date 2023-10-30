@@ -1,8 +1,8 @@
-import { render } from '@testing-library/react'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import App from './App'
 
-const el = document.getElementById(root)
+const el = document.getElementById('root')
 const root = ReactDOM.createRoot(el)
 
-render(<App />)
+root.render(<App />)
