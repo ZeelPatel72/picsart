@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
 function SearchBar({ onSubmit }) {
-	const [term, setTerm] = useState('forests')
+	const [term, setTerm] = useState('')
 	const handleformSubmit = (event) => {
 		event.preventDefault()
-		onSubmit('forests')
+		onSubmit(term)
 	}
 	const handleChange = (event) => {
 		setTerm(event.target.value)
