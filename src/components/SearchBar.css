@@ -1,0 +1,18 @@
+.bar {
+	border: 2px solid lightgoldenrodyellow;
+	box-shadow: 2px 5px 5px lightgray;
+	background-color: rgb(253, 234, 209);
+	padding: 5px;
+}
+label {
+	margin: 0px;
+	padding: 1px 10px;
+}
+.searchitem {
+	margin: 5px 5px;
+	width: 95%;
+	font-size: 15px;
+	padding: 7px;
+	border-radius: 5px;
+	box-shadow: 2px 1px 1px lightgray;
+}

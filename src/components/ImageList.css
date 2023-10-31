@@ -1,0 +1,15 @@
+.show {
+	padding: 2px;
+}
+.frame {
+	/* height: 100%; */
+	columns: 6 200px;
+	column-gap: 10px;
+	padding-top: 20px;
+	/* background-color: antiquewhite; */
+}
+img {
+	width: 100%;
+	box-shadow: 2px 1px 1px lightgray;
+	margin-bottom: 10px;
+}

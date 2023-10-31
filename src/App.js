@@ -2,6 +2,7 @@ import { useState } from 'react'
 import SearchBar from './components/SearchBar'
 import ImageList from './components/ImageList'
 import searchImgs from './api'
+import './App.css'
 
 function App() {
 	const [images, setimages] = useState([])
@@ -10,7 +11,7 @@ function App() {
 		setimages(result)
 	}
 	return (
-		<div>
+		<div className="app">
 			<div>
 				<SearchBar onSubmit={handleSubmit} />
 			</div>
